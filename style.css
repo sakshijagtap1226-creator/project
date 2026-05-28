@@ -1,0 +1,110 @@
+/* Body */
+body{
+    margin:0;
+    font-family:Arial;
+}
+
+/* Navbar */
+.navbar{
+    background:#0d1b2a;
+    color:white;
+    padding:15px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.navbar ul{
+    display:flex;
+    list-style:none;
+}
+
+.navbar li{
+    margin-left:15px;
+}
+
+/* Hero Section */
+.hero{
+    background:#0077b6;
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
+
+/* Button */
+button{
+    background:black;
+    color:white;
+    border:none;
+    padding:10px 20px;
+}
+
+/* Cards */
+.cards{
+    display:flex;
+    gap:20px;
+    justify-content:center;
+    padding:30px;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:#f2f2f2;
+    padding:20px;
+    width:200px;
+    text-align:center;
+}
+
+/* Table */
+.table-section{
+    text-align:center;
+    padding:30px;
+}
+
+table{
+    width:80%;
+    margin:auto;
+    border-collapse:collapse;
+}
+
+table,th,td{
+    border:1px solid black;
+    padding:10px;
+}
+
+/* Form */
+.contact{
+    text-align:center;
+    padding:30px;
+}
+
+input,
+textarea{
+    width:250px;
+    padding:10px;
+    margin:10px;
+}
+
+/* Footer */
+.footer{
+    background:#0d1b2a;
+    color:white;
+    text-align:center;
+    padding:10px;
+}
+
+/* Mobile */
+@media(max-width:600px){
+
+    .navbar,
+    .navbar ul{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .cards{
+        flex-direction:column;
+        align-items:center;
+    }
+}
